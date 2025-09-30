@@ -1,0 +1,76 @@
+{
+    "model_type": "RandomForest",
+    "evaluation_metrics": {
+        "accuracy": 0.832723470987977,
+        "precision": 0.8306878306878307,
+        "recall": 0.8306878306878307,
+        "f1_score": 0.8306878306878307,
+        "roc_auc": 0.9198839039748131,
+        "confusion_matrix": [
+            [
+                808,
+                160
+            ],
+            [
+                160,
+                785
+            ]
+        ]
+    },
+    "training_history": {
+        "baseline": {
+            "train_accuracy": 1.0,
+            "train_precision": 1.0,
+            "train_recall": 1.0,
+            "train_f1": 1.0,
+            "val_accuracy": 0.8265412748171369,
+            "val_precision": 0.8139059304703476,
+            "val_recall": 0.8414376321353065,
+            "val_f1": 0.8274428274428275,
+            "training_time": 0.6590642929077148,
+            "test_f1": 0.8306878306878307
+        },
+        "tuned": {
+            "train_accuracy": 0.969226172691963,
+            "train_precision": 0.9657554821267648,
+            "train_recall": 0.9721802237677654,
+            "train_f1": 0.9689572031344184,
+            "val_accuracy": 0.8265412748171369,
+            "val_precision": 0.8126272912423625,
+            "val_recall": 0.8435517970401691,
+            "val_f1": 0.8278008298755186,
+            "tuning_time": 852.9291534423828,
+            "test_f1": 0.8292422625400213,
+            "best_params": {
+                "max_depth": 30,
+                "max_features": "sqrt",
+                "min_samples_leaf": 1,
+                "min_samples_split": 10,
+                "n_estimators": 300
+            }
+        }
+    },
+    "feature_importances": [
+        0.13016679888098912,
+        0.10102780128719466,
+        0.15986131903113304,
+        0.07894157172971138,
+        0.0814976809700056,
+        0.09509462420988687,
+        0.08126193232962775,
+        0.052051926242800924,
+        0.04527448697188293,
+        0.04627739076712545,
+        0.04744090141685614,
+        0.08110356616278591
+    ],
+    "model_parameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "oob_score": 0.8337317000298775
+    },
+    "timestamp": "2025-09-19T13:14:36.038156"
+}

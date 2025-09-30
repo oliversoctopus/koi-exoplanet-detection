@@ -1,0 +1,10 @@
+PREPROCESSING SUMMARY
+========================================
+
+Number of features: 12
+Features: koi_period, koi_depth, koi_prad, koi_teq, koi_impact, koi_duration, koi_model_snr, koi_steff, koi_slogg, koi_srad, koi_kepmag, koi_insol
+
+Dataset splits:
+  Train: 6694 samples (49.4% planets)
+  Val: 957 samples (49.4% planets)
+  Test: 1913 samples (49.4% planets)
