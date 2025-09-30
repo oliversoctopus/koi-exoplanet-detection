@@ -173,7 +173,7 @@ The trained model will be saved as `exoplanet_detector.pkl`
 
 ## 🏆 NASA Space Apps Challenge 2025
 
-This project was developed for the NASA Space Apps Challenge 2025, addressing the challenge:
+This project was developed as a proof of concept before the NASA Space Apps Challenge 2025, addressing the challenge:
 **"A World Away: Hunting for Exoplanets with AI"**
 
 ### Challenge Goals Met
@@ -182,10 +182,6 @@ This project was developed for the NASA Space Apps Challenge 2025, addressing th
 ✅ Interactive visualization and exploration tools
 ✅ Open-source implementation with documentation
 ✅ User-friendly web interface for predictions
-
-## 👥 Team
-
-Developed for NASA Space Apps Challenge 2025 hackathon (October 4-5, 2025)
 
 ## 📚 References
 
@@ -205,10 +201,6 @@ DOI: http://doi.org/10.17616/R3X31K
 ## 📄 License
 
 This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
 ## 📧 Contact
 
