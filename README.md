@@ -14,12 +14,12 @@ An AI-powered system for detecting exoplanets from Kepler Space Telescope transi
 This project automates the detection of exoplanets from transit signals in the Kepler Space Telescope data, reducing manual vetting by astronomers. Using supervised machine learning with LightGBM, we classify Kepler Objects of Interest (KOI) as either confirmed/candidate planets or false positives.
 
 ### Key Features
-- **High-Performance ML Model**: LightGBM classifier achieving 83% F1-score and 92.6% ROC-AUC
+- **High-Performance ML Model**: LightGBM classifier achieving 83% F1-score and 92.6% ROC-AUC, along with a TabNet and Random Forest classifier with similar levels of accuracy.
 - **Interactive Web Application**: Streamlit-based UI for real-time predictions
 - **Comprehensive Data Pipeline**: Automated preprocessing, feature engineering, and model training
 - **Visualization Dashboard**: Interactive plots for data exploration and model interpretation
 
-## 📊 Model Performance
+## 📊 Model Performance (LightGBM)
 
 | Metric | Score |
 |--------|-------|
